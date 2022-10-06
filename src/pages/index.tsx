@@ -1,10 +1,16 @@
 import React from 'react';
 
+import { Counter } from '../Components/Counter';
+
+import { GlobalStyle } from '../styles/GloablStyles';
+
 const Home: React.FC = function () {
   return (
-    <div>
-      <p>Home</p>
-    </div>
+    <>
+      <GlobalStyle />
+
+      <Counter />
+    </>
   );
 };
 
